@@ -1,17 +1,16 @@
 Summary:	Dutch dictionary for aspell
 Summary(pl):	Holendersk s³ownik dla aspella
 Name:		aspell-nl
-Version:	0.0
-%define	subv	3
-Release:	2
+Version:	0.50
+%define	subv	2
+Release:	1
 Epoch:		1
 License:	GPL (?)
 Group:		Applications/Text
-Source0:	http://aspell.sourceforge.net/%{name}-%{version}-%{subv}.tar.bz2
+Source0:	ftp://ftp.gnu.org/gnu/aspell/%{name}-%{version}-%{subv}.tar.bz2
 URL:		http://aspell.sourceforge.net/
-BuildRequires:	aspell
-BuildRequires:	pspell-devel
-Requires:	aspell
+BuildRequires:	aspell >= 0.50.0
+Requires:	aspell >= 0.50.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -43,4 +42,3 @@ rm -rf $RPM_BUILD_ROOT
 %doc README Copyright
 %{_libdir}/aspell/*
 %{_datadir}/aspell/*
-%{_datadir}/pspell/*
