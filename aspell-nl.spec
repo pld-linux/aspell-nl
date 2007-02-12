@@ -1,5 +1,5 @@
 Summary:	Dutch dictionary for aspell
-Summary(pl.UTF-8):   Słownik holenderski dla aspella
+Summary(pl.UTF-8):	Słownik holenderski dla aspella
 Name:		aspell-nl
 Version:	0.50
 %define	subv	2
