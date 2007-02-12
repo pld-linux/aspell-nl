@@ -1,5 +1,5 @@
 Summary:	Dutch dictionary for aspell
-Summary(pl):	S≥ownik holenderski dla aspella
+Summary(pl.UTF-8):   S≈Çownik holenderski dla aspella
 Name:		aspell-nl
 Version:	0.50
 %define	subv	2
@@ -17,8 +17,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Dutch dictionary (i.e. word list) for aspell.
 
-%description -l pl
-S≥ownik holenderski (lista s≥Ûw) dla aspella.
+%description -l pl.UTF-8
+S≈Çownik holenderski (lista s≈Ç√≥w) dla aspella.
 
 %prep
 %setup -q -n %{name}-%{version}-%{subv}
